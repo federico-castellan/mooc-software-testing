@@ -26,7 +26,6 @@ public class GHappyTest {
         Assertions.assertFalse(gh.gHappy("abmnagnmns"));
     }
 
-    
     @Test
     public void testManyLonely() {
         Assertions.assertFalse(gh.gHappy("ghg"));
@@ -34,13 +33,11 @@ public class GHappyTest {
         Assertions.assertFalse(gh.gHappy("abbgjkgklmb"));
     }
 
-    
     @Test
     public void testSomehappy() {
         Assertions.assertTrue(gh.gHappy("ggmmmmm"));
         Assertions.assertTrue(gh.gHappy("hhgghh"));
         Assertions.assertTrue(gh.gHappy("hhhhgg"));
-        
         Assertions.assertFalse(gh.gHappy("ggmmgmmmgg"));
         Assertions.assertFalse(gh.gHappy("ggmmmmmg"));
     }
