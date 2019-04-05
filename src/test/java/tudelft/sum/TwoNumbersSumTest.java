@@ -82,7 +82,6 @@ public class TwoNumbersSumTest {
         n2.add(5);
         n2.add(9);
         assertEquals(3037 + 5059, getNumber(o.addTwoNumbers(n1, n2)));
-
     }
 
     @Test
